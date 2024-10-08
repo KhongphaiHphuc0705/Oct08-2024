@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #53b7b7;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #53b7b7;
+  margin: 5px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.text {
+  margin-top: 15px;
+}
